@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: forestgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: rgb(147, 247, 214);
+    border-radius: 8px;
+}
+
+.especial::before {
+    content: '֍';
+}
+
+.especial::after {
+    content: '֍';
+}
