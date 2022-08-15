@@ -1,0 +1,19 @@
+h1 {
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border: 5px solid  black;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 20px auto 40px auto; /* Vai centralizar o objeto automaticamente*/
+
+    outline: 2px dashed salmon;
+}
+
+a {
+    border: solid  black;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    text-align: center;
+}
