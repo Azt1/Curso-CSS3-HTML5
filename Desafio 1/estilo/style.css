@@ -1,10 +1,15 @@
+@charset "UTF-8";
 * {
     padding: 0;
     margin: 0;
 }
 
+:root {
+    --cor0: #c5ebd6
+}
+
 body {
-    background-color: #84e1ad;
+    background-color: #c5ebd6;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: 20px;
@@ -30,19 +35,7 @@ nav {
     text-decoration: none;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-}
 
-li {
-    letter-spacing: 2px;
-    margin-right: 10rem;
-    border-radius: 15px;
-    text-decoration: none;
-    padding: 18px;
-}
 
 li:hover {
     background-color: #ffffff;
